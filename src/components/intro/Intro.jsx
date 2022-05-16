@@ -1,4 +1,4 @@
-import React from 'react'
+import "../intro/intro.scss"
 
 export default function intro() {
   return (

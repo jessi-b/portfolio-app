@@ -1,4 +1,4 @@
-import './works/work'
+import '../work/work.scss'
 
 export default function Work() {
   return (

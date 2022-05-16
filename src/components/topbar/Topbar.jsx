@@ -1,4 +1,4 @@
-import React from 'react'
+import '../topbar/topbar.scss'
 
 export default function Topbar() {
   return (
