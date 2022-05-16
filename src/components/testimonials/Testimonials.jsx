@@ -2,6 +2,6 @@ import '../testimonials/testimonials.scss'
 
 export default function Testimonials() {
   return (
-    <div className='testimonials'>Testimonials</div>
+    <div className='testimonials' id='testimonials'>Testimonials</div>
   )
 }

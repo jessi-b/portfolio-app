@@ -2,8 +2,6 @@ import "../contact/contact.scss"
 
 export default function Contact() {
   return (
-    <div className="contact">
-
-    </div>
+    <div className="contact" id="contact">Contact</div>
   )
 }
