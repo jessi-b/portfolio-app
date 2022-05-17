@@ -1,5 +1,51 @@
 @import "../../global.scss";
 
 .testimonials{
-  background-color: $grey-3;
+  background-color: $grey-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 50px;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .card{
+      width: 300px;
+      height: 70%;
+      background-color: $white;
+      border-radius: 1em;
+      box-shadow: 5px 5px 15px -8px $black;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      .top{
+        img{
+          &:left, &:right{
+            height: 25px;
+          }
+          &.user{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 30px;
+          }
+        }
+      }
+      .center{
+        padding: 10px;
+        border-radius: 0%;
+        background-color: $white;
+      }
+      .bottom{
+
+      }
+    }
+  }
 }

@@ -9,3 +9,10 @@ $yellow: #e4c662;
 $green: #67c29c;
 $blue: #1cabc4;
 $purple: #7464a1;
+
+img{
+  filter: grayscale(100%);
+  &:hover{
+    filter: grayscale(30%);
+  }
+}
