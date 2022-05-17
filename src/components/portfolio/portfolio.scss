@@ -13,17 +13,6 @@
     padding: 0;
     list-style: flex;
     display: flex;
-    li{
-      font-style: 16px;
-      margin-right: 5em;
-      padding: 7px;
-      border-radius: 10em;
-      cursor: pointer;
-      &.active{
-        background-color: $mainColor;
-        
-      }
-    }
   }
   .container{
     width: 70%;
@@ -31,7 +20,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    .item{
+    .project{
       width: 150px;
       height: 150px;
       border-radius: 1em;
