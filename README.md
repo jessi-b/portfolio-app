@@ -31,6 +31,7 @@ This is a web portfolio to provide a way for to land more clients, whether that 
 * [React.js](https://reactjs.org/docs/getting-started.html)
 * HTML
 * CSS
+* [translateX](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX)
 #
 ### Setup & Installation
 * Clone Repo: In your terminal, navigate to your desktop or other desired location and enter `git clone https://github.com/jessi-b/portfolio-app.git`

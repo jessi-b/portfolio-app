@@ -41,6 +41,7 @@
       img{
         width: 100%;
         height: 100%;
+        filter: grayscale(100%);
         object-fit: cover;
         z-index: 1;
       }
@@ -48,8 +49,8 @@
         background-color: $grey-2;
         border-color: $blue;
         color: $blue;
-
         img{
+          filter: grayscale(30%);
           opacity: .09;
           z-index: 0;
         }
