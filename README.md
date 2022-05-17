@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <u><big>|| <b>Projeect Portfolio</b> ||</big></u>
+  <u><big> <b>Project Portfolio</b> </big></u>
   <br>
   <em>Epicodus - Capstone - Code Review</em>
   <br>
