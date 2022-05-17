@@ -7,7 +7,7 @@
   align-items: center;
   h1{
     font-size: 50px;
-    height: auto;
+    height: 66&;
     overflow: hidden;
   }
   .container{
@@ -31,7 +31,7 @@
       &:hover{
         transform: scale(1.1);
         box-shadow: 5px 5px 15px -8px $yellow;
-        .img &.user {
+        img {
           filter: grayscale(0%);
         }
         .center{
