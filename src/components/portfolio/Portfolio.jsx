@@ -37,6 +37,14 @@ export default function Portfolio() {
     <div className='portfolio' id='portfolio'>
       <h1>Portfolio</h1>
       <ul>
+        {list.map(project => (
+          <PortfolioList 
+          heading= {project.heading}
+          active={selected === project.id}
+          setSelected={setSelected}
+          id={project.id} />
+        ))}
+      </ul>
         <div className="container">
           {project.map((proj) => (
             <div className="project">
@@ -45,7 +53,6 @@ export default function Portfolio() {
             </div>
           ))}
         </div>
-      </ul>
     </div>
   )
 }
