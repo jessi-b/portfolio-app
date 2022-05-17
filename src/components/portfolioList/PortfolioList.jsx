@@ -1,4 +1,4 @@
-import '../portfolioList/portfolioList.scss'
+import './portfolioList.scss'
 
 export default function PortfolioList({id, heading, active, setSelected}) {
   return (

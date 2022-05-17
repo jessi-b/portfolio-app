@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .portfolio{
-  background-color: lightgrey;
+  background-color: $gray-1;
+  color: $blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +10,7 @@
     font-size: 50px;
   }
   ul{
+    font-weight: bold;
     margin: 10px;
     padding: 0;
     list-style: flex;
@@ -24,17 +26,16 @@
       width: 150px;
       height: 150px;
       border-radius: 1em;
-      border: 1px solid black;
+      border: 1px solid $blue;
       margin: 2em 2em;
       display: flex;
       align-items: center;
-      color: $mainColor;
       position: relative;
       transition: all .5s ease;
       cursor: pointer;
       h3{
         position: absolute;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
       }
       img{
@@ -44,9 +45,9 @@
         z-index: 1;
       }
       &:hover{
-        background-color: black;
+        background-color: $black;
         img{
-          opacity: .2;
+          opacity: .09;
           z-index: 0;
         }
       }
