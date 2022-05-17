@@ -22,10 +22,6 @@ export default function Topbar({menuOpen, setMenuOpen}) {
             <span className='line1'></span>
             <span className='line2'></span>
             <span className='line3'></span>
-            {/* <a href='#portfolio'>PORTFOLIO</a>
-            <a href='#work'>WORK</a>
-            <a href='#testimonials'>TESTIMONIALS</a>
-            <a href='#contact'>CONTACT</a> */}
           </div>
         </div>
       </div>
