@@ -24,7 +24,7 @@
 ------------------------------
 
 ### Description
-This is a web portfolio to provide a way for to land more clients, whether that means freelance work, more clients for your agency or employment at a company
+This is a web portfolio to display a portfolio and allow interested parties to contact you.
 #
 ### Technologies Used
 * [Visual Studio Code](https://code.visualstudio.com/)
