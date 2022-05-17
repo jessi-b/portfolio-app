@@ -17,9 +17,10 @@
       float: right;
       overflow: hidden;
       img{
-        height: 90%;
         background-color: $grey-1;
         border-radius: 50%;
+        border-radius: 50%;
+        object-fit: cover;
       }
     }
   }
