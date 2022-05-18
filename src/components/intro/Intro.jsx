@@ -1,6 +1,7 @@
 import "../intro/intro.scss";
 import { init } from 'ityped';
 import { useEffect, useRef } from "react";
+// import TypeWriterEffect from 'react-typewriter-effect';
 
 export default function Intro() {
   const textRef = useRef();
@@ -9,7 +10,7 @@ export default function Intro() {
       showCursor: true, 
       backDelay: 3500,
       backSpeed: 40,
-      strings: ['Junior Developer', 'Boooyah' ],
+      strings: ['Junior Developer', 'Boooyah' ]
     });
   }, []);
   return (
@@ -24,6 +25,20 @@ export default function Intro() {
           <h2>hello world, I'm</h2>
           <h1>Jessi</h1>
           <h3><span ref={textRef}></span></h3>
+          {/* <h3><TypeWriterEffect
+            textStyle={{
+              
+              color: '$purple'
+            }}
+            startDelay={2000}
+            cursorColor="$purple"
+            multiText={[
+              'Junior Developer',
+              'Booyah'
+            ]}
+            multiTextDelay={1000}
+            typeSpeed={30}
+          /></h3> */}
         </div>
         <a href="#portfolio">
           <img src="assets/arrow.png" alt="" />

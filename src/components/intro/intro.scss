@@ -4,6 +4,10 @@
   background-color: $white;
   display: flex;
   overflow: hidden;
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
   #left{
     flex: .5;
     .imgContainer{
@@ -16,11 +20,17 @@
       justify-content: center;
       float: right;
       overflow: hidden;
+      @include mobile{
+        align-self: start;
+      }
       img{
         background-color: $grey-1;
         border-radius: 50%;
         border-radius: 50%;
         object-fit: cover;
+        @include mobile{
+          height: 50%;
+        }
       }
     }
   }
@@ -34,17 +44,34 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      @include mobile{
+        padding-left: 0;
+        align-items: center;
+      }
       h1{
         font-size: 80px;
         text-align: center;
+        @include mobile{
+          font-size: 40px;
+        }
       }
       h2{
         font-size: 35px;
         text-align: left;
+        @include mobile{
+          padding-left: 0;
+          align-items: center;
+          @include mobile{
+            font-size: 20px;
+          }
+        }
       }
       h3{
         font-size: 25px;
         text-align: left;
+        @include mobile{
+          font-size: 15px;
+        }
         span{
           color: $purple;
         }

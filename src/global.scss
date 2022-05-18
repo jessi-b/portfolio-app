@@ -10,9 +10,17 @@ $green: #67c29c;
 $blue: #1cabc4;
 $purple: #7464a1;
 
+$width: 768px;
+
 img{
   filter: grayscale(100%);
   &:hover{
     filter: grayscale(30%);
+  }
+}
+
+@mixin mobile{
+  @media (max-width: #{$width}){
+    @content
   }
 }
