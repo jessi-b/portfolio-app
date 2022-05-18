@@ -18,9 +18,36 @@ img{
     filter: grayscale(30%);
   }
 }
-
 @mixin mobile{
   @media (max-width: #{$width}){
     @content
   }
 }
+
+h1{
+  font-size: 50px;
+  @include mobile{
+    font-size: 20px;
+  }
+}
+// h2{
+//   font-size: 20px;
+//   text-align: left;
+//     @include mobile{
+//       font-size: 20px;
+//     }
+// }
+// h3{
+//   font-size: 16px;
+//   text-align: left;
+//   @include mobile{
+//     font-size: 15px;
+//   }
+// }
+// p{
+//   font-size: 16px;
+//   text-align: left;
+//   @include mobile{
+//     font-size: 12px;
+//   }
+// }

@@ -35,7 +35,7 @@ export default function Testimonials() {
               <h4>{test.title}</h4>
             </div>
           </div>
-        ))};
+        ))}
       </div>
     </div>
   )

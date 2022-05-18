@@ -6,10 +6,16 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  @include mobile{
+    justify-content: space-between;
+  }
   .arrow{
     height: 50px;
     position: absolute;
     cursor: pointer;
+    @include mobile{
+      display: none;
+    }
     &.left{
       left: 100px;
       transform: rotate(90deg);
@@ -25,6 +31,11 @@
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+    @include mobile{
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
     .container{
       width: 100vw;
       display: flex;
@@ -38,6 +49,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include mobile{
+          width: 90%;
+          height: 120px;
+          margin: .2em;
+        }
         .left{
           flex: 5;
           height: 80%;
@@ -50,6 +66,9 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            @include mobile{
+              height: 90%;
+            }
             // .imgContainer{
             //   width: 40px;
             //   height: 40px;
@@ -64,6 +83,14 @@
             // }
             h2{
               font-size: 35px;
+              @include mobile{
+                font-size: 20px;
+              }
+            }
+            p{
+              @include mobile{
+                font-size: 14px;
+              }
             }
             span{
               font-size: smaller;
