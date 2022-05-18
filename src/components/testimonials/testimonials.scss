@@ -22,25 +22,22 @@
     align-items: center;
     justify-content: center;
     @include mobile{
+      height: 100%;
       flex-direction: column;
-      // height: 100%;
     }
     .card{
-      width: 300px;
-      height: 80%;
+      width: 250px;
+      height: 70%;
       background-color: $white;
-      border-radius: 1em;
+      border-radius: 10px;
       box-shadow: 5px 5px 15px -8px $black;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 1.5em;
-      margin: 1em;
+      padding: 20px;
       transition: all .3s ease;
       @include mobile{
-        height: 100%;
-        padding: 1.5em;
-        margin: 10px 0;
+        height: 180px;
       }
       &:hover{
         transform: scale(1.1);
@@ -58,8 +55,7 @@
         justify-content: center;
         padding: 1.5em;
         @include mobile{
-          padding: .2em;
-          margin: .2em;
+          padding: 1px;
         }
         img{
           &.user{
@@ -69,8 +65,8 @@
             object-fit: cover;
             margin: 0 30px;
             @include mobile {
-              width: 30px;
-              height: 30px;
+              width: 25px;
+              height: 25px;
             }
           }
         }
@@ -78,7 +74,6 @@
       .center{
         padding: 10px;
         border-radius: 1em;
-        padding: 1.5em;
         @include mobile {
           font-size: 12px;
           padding: 5px;
@@ -98,6 +93,7 @@
           margin-bottom: 5px;
           @include mobile {
             font-size: 14px;
+            margin-bottom: 0px;
           }
         }
         h4{
