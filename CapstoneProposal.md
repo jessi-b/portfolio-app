@@ -12,15 +12,18 @@ MVP
 * Testimonials section - quote cards; utilize dummy data
 
 Tools, frameworks, libraries, APIs, modules and/or other resources:
-* React - frontend
+* React
 * JSX
 * HTML
 * SASS CSS
 
 Stretch Goals
-* Add a comments/questions section
+* Add CRUD for leaving comments/questions section
 * Replace dummy data my personal projects & info
-* Add a "take a break" section with simple, personally coded games
+* Update personal projects to portfolo state 
+* Link projects from Github
+* Additional styling
+* Add interactive, simple games (ie hangman, ping pong, etc. )
 
 Additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 * n/a
