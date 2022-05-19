@@ -10,7 +10,8 @@ MVP
 * Intro section
 * Portfolio section - dynamic images
 * Project/works sectiion - dynamic slides;
-* Testimonials section - quote cards; utilize dummy data
+* Testimonials section - quote cards
+* Site to uilize dummy data
 
 Tools, frameworks, libraries, APIs, modules and/or other resources:
 * React
@@ -19,6 +20,7 @@ Tools, frameworks, libraries, APIs, modules and/or other resources:
 * SASS CSS
 
 Stretch Goals
+* Add custom styling for mobile view
 * Add navigation to resume page
 * Replace dummy data my personal projects & info
 * Update personal projects to portfolo state 
